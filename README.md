@@ -47,10 +47,6 @@ what you build, and what you're currently focused on.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=dumbCodesOnly&show_icons=true&theme=dark&hide_border=true&bg_color=0a0e14&title_color=00e5a0&icon_color=7c8cff&text_color=d6e0e8" width="60%"/>
-
-<br/>
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=dumbCodesOnly&theme=dark&hide_border=true&background=0a0e14&ring=00e5a0&fire=7c8cff&currStreakLabel=00e5a0" width="60%"/>
 
 </div>
