@@ -47,7 +47,10 @@ what you build, and what you're currently focused on.
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dumbCodesOnly&theme=dark&hide_border=true&background=0a0e14&ring=00e5a0&fire=7c8cff&currStreakLabel=00e5a0" width="60%"/>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=dumbCodesOnly&theme=default&hide_border=true&ring=00b386&fire=5a6bd6&currStreakLabel=00b386"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dumbCodesOnly&theme=dark&hide_border=true&background=0a0e14&ring=00e5a0&fire=7c8cff&currStreakLabel=00e5a0" width="60%"/>
+</picture>
 
 <br/>
 
