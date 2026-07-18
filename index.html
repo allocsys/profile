@@ -345,7 +345,54 @@
         <span class="tech-tag">Workflow automation</span>
       </div>
       <div class="tag-row" style="margin-top: 10px;">
-        <a href="https://github.com/allocsys/n8n-agentic-ops-showcase" target="_blank">View repo →</a>
+        <a href="https://github.com/allocsys/n8n-agentic-ops" target="_blank">View repo →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="role-row">
+        <h3>cf-manager</h3>
+        <span class="dates">2026</span>
+      </div>
+      <div class="company">Bash + Cloudflare API v4 — mobile-first admin panel for Workers, KV, D1, R2 &amp; Hyperdrive, entirely inside Termux</div>
+      <ul>
+        <li>Built a single self-contained bash script that gives Cloudflare a full menu-driven admin panel — Workers deploy/rollback, KV/D1/R2/Hyperdrive management — usable entirely from a phone terminal, no dashboard tab or laptop required.</li>
+        <li>Implemented OAuth2 + PKCE login (the same flow <code>wrangler login</code> uses) with multi-account storage and switching, so no API tokens need to be manually pasted or rotated by hand.</li>
+        <li>Added one-tap rollback by backing up every deploy locally before it goes out, plus a GitHub sync step that pushes a worker's source straight to a linked repo branch on deploy — deploy and version control in one action.</li>
+        <li>Worked around <code>workerd</code> having no native Android build by driving <code>wrangler tail</code> inside an auto-installed proot-distro Ubuntu container, so real-time log tailing still works from Termux.</li>
+      </ul>
+      <div class="tag-row">
+        <span class="tech-tag">Bash</span>
+        <span class="tech-tag">Cloudflare API v4</span>
+        <span class="tech-tag">OAuth2 + PKCE</span>
+        <span class="tech-tag">Termux</span>
+        <span class="tech-tag">CLI / TUI design</span>
+      </div>
+      <div class="tag-row" style="margin-top: 10px;">
+        <a href="https://github.com/allocsys/cfmanager" target="_blank">View repo →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="role-row">
+        <h3>domap</h3>
+        <span class="dates">2026</span>
+      </div>
+      <div class="company">Node.js + Playwright — headless-Chromium DOM mapper and action-replay tool for Termux</div>
+      <ul>
+        <li>Built a tool that walks a live page's DOM after JS execution into a structured tree (bounding boxes, ARIA roles, stable-ish CSS selectors) and flags interactive elements for later reuse.</li>
+        <li>Captured full network traffic (requests, responses, failures, timing) alongside each DOM snapshot and rendered everything into a single tabbed HTML report (tree / interactive elements / network / actions).</li>
+        <li>Solved a real platform blocker: <code>playwright-core</code> refuses to load at all on Android by checking <code>process.platform</code> — added a narrowly-scoped platform spoof around just the <code>require()</code> call, safe because the tool never launches Android-specific binaries and instead always attaches to a remote Browserless.io session.</li>
+        <li>Supports replaying recorded actions (clicks, uploads, text input) against a page in a fresh session, including correct file-chooser interception for upload buttons that only open a native OS dialog on click.</li>
+      </ul>
+      <div class="tag-row">
+        <span class="tech-tag">Node.js</span>
+        <span class="tech-tag">Playwright</span>
+        <span class="tech-tag">Browserless.io</span>
+        <span class="tech-tag">DOM analysis</span>
+      </div>
+      <div class="tag-row" style="margin-top: 10px;">
+        <a href="https://github.com/allocsys/logger" target="_blank">View repo →</a>
       </div>
     </div>
   </section>
