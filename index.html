@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Name — Developer Resume</title>
-<meta name="description" content="Full-stack developer resume and portfolio — projects, experience, and skills." />
+<title>deuslydev — Backend Developer</title>
+<meta name="description" content="deuslydev — backend developer portfolio: MCP server infrastructure, AI agent automation, and open-source contributions." />
 <meta property="og:type" content="profile" />
-<meta property="og:title" content="Your Name — Developer Resume" />
-<meta property="og:description" content="Full-stack developer resume and portfolio — projects, experience, and skills." />
+<meta property="og:title" content="deuslydev — Backend Developer" />
+<meta property="og:description" content="Backend developer portfolio: MCP server infrastructure, AI agent automation, and open-source contributions." />
 <meta property="og:image" content="https://raw.githubusercontent.com/dumbCodesOnly/profile/main/github-metrics.svg" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Your Name — Developer Resume" />
-<meta name="twitter:description" content="Full-stack developer resume and portfolio — projects, experience, and skills." />
+<meta name="twitter:title" content="deuslydev — Backend Developer" />
+<meta name="twitter:description" content="Backend developer portfolio: MCP server infrastructure, AI agent automation, and open-source contributions." />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -270,14 +270,14 @@
       <span class="dot red"></span>
       <span class="dot yellow"></span>
       <span class="dot green"></span>
-      <span class="term-title">guest@dumbcodesonly: ~</span>
+      <span class="term-title">deuslydev@dumbcodesonly: ~</span>
     </div>
     <div class="term-body">
       <p class="line"><span class="prompt">$</span>whoami</p>
-      <p class="output name">Your Name</p>
+      <p class="output name">deuslydev</p>
 
       <p class="line"><span class="prompt">$</span>cat role.txt</p>
-      <p class="output role">Full-Stack Developer · Placeholder Title</p>
+      <p class="output role">Backend Developer — APIs, infra & AI-agent tooling</p>
 
       <p class="line"><span class="prompt">$</span>ls --contact</p>
       <p class="flags">
@@ -294,34 +294,59 @@
   <section>
     <h2><span class="cmt">//</span> About</h2>
     <div class="card">
-      <p>Placeholder bio — replace this with 2-3 sentences about who you are, what you build, and what you're looking for. Mention your main stack and a standout project or achievement.</p>
+      <p>Backend-focused developer who builds the infrastructure layer AI agents actually run on — auth, rate limiting, multi-service integrations — rather than just wiring prompts together. Comfortable owning a project end-to-end: designing the API surface, hardening it (timing-safe auth, IP allowlisting, proxy-aware rate limiting), and documenting the reasoning so someone else can maintain it. Recent focus: Model Context Protocol (MCP) servers and agentic workflow automation (n8n + LangChain).</p>
     </div>
   </section>
 
   <section>
-    <h2><span class="cmt">//</span> Experience</h2>
+    <h2><span class="cmt">//</span> Projects</h2>
+
     <div class="card">
       <div class="role-row">
-        <h3>Job Title</h3>
-        <span class="dates">Jan 2024 — Present</span>
+        <h3>madmcp</h3>
+        <span class="dates">2026</span>
       </div>
-      <div class="company">Company Name</div>
+      <div class="company">MCP server — GitHub, Cloudflare, Notion, Mem0 &amp; web-fetch tool access for AI agents</div>
       <ul>
-        <li>Placeholder bullet describing an impactful contribution.</li>
-        <li>Placeholder bullet with a measurable result (e.g. "reduced load time by 40%").</li>
-        <li>Placeholder bullet about a tool or system you built.</li>
+        <li>Built and deployed a single MCP server (Node/Express) exposing ~50 tools across 5 backends (GitHub, Cloudflare D1/KV/R2/Workers, Notion, Mem0, generic fetch) to any MCP-compatible client.</li>
+        <li>Designed the auth layer myself: timing-safe shared-key comparison, IP allowlisting scoped to Claude's published connector range, and per-route rate limiting — applied in the correct order so a leaked key alone can't reach the server from an untrusted network.</li>
+        <li>Handled real deployment-platform edge cases: correct `X-Forwarded-For` trust depth per reverse-proxy hop, request body limits raised for large file pushes, and graceful per-connector token failure (one missing credential doesn't take down the whole server).</li>
+        <li>Shipped with one-click deploy configs for Render and Vercel, plus a documented manual path for any Node host.</li>
       </ul>
+      <div class="tag-row">
+        <span class="tech-tag">Node.js</span>
+        <span class="tech-tag">Express</span>
+        <span class="tech-tag">MCP</span>
+        <span class="tech-tag">REST API design</span>
+        <span class="tech-tag">Auth &amp; rate limiting</span>
+      </div>
+      <div class="tag-row" style="margin-top: 10px;">
+        <a href="https://github.com/dumbCodesOnly/madmcp" target="_blank">View repo →</a>
+      </div>
     </div>
+
     <div class="card">
       <div class="role-row">
-        <h3>Previous Job Title</h3>
-        <span class="dates">Jun 2022 — Dec 2023</span>
+        <h3>Agentic Email Triage &amp; Ops Automation</h3>
+        <span class="dates">2026</span>
       </div>
-      <div class="company">Previous Company</div>
+      <div class="company">n8n workflow — LLM agent with per-sender memory, RAG, and CRM/Sheets/LINE routing</div>
       <ul>
-        <li>Placeholder bullet describing responsibilities.</li>
-        <li>Placeholder bullet describing a key project.</li>
+        <li>Designed an n8n workflow where an AI agent classifies inbound support email (category + priority), grounds factual answers in a RAG-searched knowledge base, and drafts replies only for non-urgent cases.</li>
+        <li>Built a deliberate safety boundary directly into the system prompt: escalation-worthy emails (angry customers, payment failures, security reports) are flagged for a human and never get an auto-generated reply — the boundary lives before generation, not as a filter after.</li>
+        <li>Forced structured JSON output from the agent so downstream nodes (Sheets logging, CRM ticket creation, LINE alerts) route deterministically instead of parsing free text.</li>
+        <li>Documented and tested against 6 representative scenarios, weighting test coverage toward the costliest failure mode (an urgent email misclassified as routine).</li>
       </ul>
+      <div class="tag-row">
+        <span class="tech-tag">n8n</span>
+        <span class="tech-tag">LangChain</span>
+        <span class="tech-tag">RAG / Qdrant</span>
+        <span class="tech-tag">Prompt design</span>
+        <span class="tech-tag">Workflow automation</span>
+      </div>
+      <div class="tag-row" style="margin-top: 10px;">
+        <a href="https://github.com/dumbCodesOnly/n8n-agentic-ops-showcase" target="_blank">View repo →</a>
+      </div>
     </div>
   </section>
 
@@ -355,24 +380,39 @@
     <div class="skill-group">
       <h4>Languages</h4>
       <div class="skills-grid">
-        <span class="skill-pill">JavaScript</span>
-        <span class="skill-pill">Python</span>
+        <span class="skill-pill">JavaScript / TypeScript</span>
+        <span class="skill-pill">Node.js</span>
         <span class="skill-pill">SQL</span>
       </div>
     </div>
     <div class="skill-group">
-      <h4>Frameworks &amp; Libraries</h4>
+      <h4>Backend &amp; APIs</h4>
       <div class="skills-grid">
-        <span class="skill-pill">React</span>
-        <span class="skill-pill">Node.js</span>
+        <span class="skill-pill">Express</span>
+        <span class="skill-pill">REST API design</span>
+        <span class="skill-pill">OAuth2</span>
+        <span class="skill-pill">Rate limiting</span>
+        <span class="skill-pill">IP allowlisting</span>
+        <span class="skill-pill">Webhooks</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h4>AI / Agent Tooling</h4>
+      <div class="skills-grid">
+        <span class="skill-pill">Model Context Protocol (MCP)</span>
+        <span class="skill-pill">LangChain</span>
+        <span class="skill-pill">RAG / Vector DBs (Qdrant)</span>
+        <span class="skill-pill">n8n</span>
+        <span class="skill-pill">Prompt design</span>
       </div>
     </div>
     <div class="skill-group">
       <h4>Infrastructure &amp; Tools</h4>
       <div class="skills-grid">
         <span class="skill-pill">Git</span>
-        <span class="skill-pill">Docker</span>
-        <span class="skill-pill">AWS</span>
+        <span class="skill-pill">Cloudflare (D1, KV, R2, Workers)</span>
+        <span class="skill-pill">Render / Vercel</span>
+        <span class="skill-pill">CI (GitHub Actions)</span>
       </div>
     </div>
   </section>
@@ -388,19 +428,8 @@
     </div>
   </section>
 
-  <section>
-    <h2><span class="cmt">//</span> Education</h2>
-    <div class="card">
-      <div class="role-row">
-        <h3>Degree / Program</h3>
-        <span class="dates">Year — Year</span>
-      </div>
-      <div class="company">School Name</div>
-    </div>
-  </section>
-
   <footer>
-    <p><span class="prompt">$</span>echo "Built by Your Name" &amp;&amp; exit 0 &nbsp;·&nbsp; <a href="https://github.com/dumbCodesOnly/profile">source</a></p>
+    <p><span class="prompt">$</span>echo "Built by deuslydev" &amp;&amp; exit 0 &nbsp;·&nbsp; <a href="https://github.com/dumbCodesOnly/profile">source</a></p>
   </footer>
 
 </div>
