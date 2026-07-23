@@ -1,8 +1,8 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%---- ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 6 0 R
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
 >>
 endobj
 2 0 obj
@@ -22,7 +22,7 @@ endobj
 endobj
 5 0 obj
 <<
-/Contents 11 0 R /MediaBox [ 0 0 612 792 ] /Parent 10 0 R /Resources <<
+/Contents 10 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 /Trans <<
 
@@ -32,12 +32,7 @@ endobj
 endobj
 6 0 obj
 <<
-/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
->>
-endobj
-7 0 obj
-<<
-/Contents 12 0 R /MediaBox [ 0 0 612 792 ] /Parent 10 0 R /Resources <<
+/Contents 11 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
 /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >> /Rotate 0 /Trans <<
 
@@ -45,61 +40,420 @@ endobj
   /Type /Page
 >>
 endobj
+7 0 obj
+<<
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+>>
+endobj
 8 0 obj
 <<
-/PageMode /UseNone /Pages 10 0 R /Type /Catalog
+/Author (allocsys) /CreationDate (D:20260723060327+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260723060327+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (allocsys \204 Resume) /Trapped /False
 >>
 endobj
 9 0 obj
 <<
-/Author (allocsys) /CreationDate (D:20260718183249+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260718183249+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (allocsys \204 Resume) /Trapped /False
+/Count 2 /Kids [ 5 0 R 6 0 R ] /Type /Pages
 >>
 endobj
 10 0 obj
 <<
-/Count 2 /Kids [ 5 0 R 7 0 R ] /Type /Pages
+/Length 5505
 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.466667 .466667 .466667 rg
+BT 1 0 0 1 259.536 36 Tm (allocsys \267 resume \267 page 1) Tj T* ET
+Q
+q
+1 0 0 1 60 708 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL (allocsys) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 692 cm
+q
+BT 1 0 0 1 0 3 Tm 14 TL /F1 11 Tf .2 .2 .2 rg (Backend Developer \227 APIs, Infra & AI-Agent Tooling) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 678 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F1 9 Tf .333333 .333333 .333333 rg (allocsys@gmail.com \267 github.com/allocsys \267 allocsys.github.io/profile) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 652 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (SUMMARY) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 578.5 cm
+q
+BT 1 0 0 1 0 58 Tm 13.5 TL /F1 9.5 Tf 0 0 0 rg (Backend-focused developer who builds the infrastructure layer AI agents actually run on \227 auth, rate limiting,) Tj T* (multi-service integrations \227 rather than just wiring prompts together. Comfortable owning a project end-to-end:) Tj T* (designing the API surface, hardening it \(timing-safe auth, IP allowlisting, proxy-aware rate limiting\), and documenting) Tj T* (the reasoning so someone else can maintain it. Recent focus: Model Context Protocol \(MCP\) servers and agentic) Tj T* (workflow automation \(n8n + LangChain\), plus root-causing bugs in real-world open-source infrastructure.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 552.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (PROJECTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 533.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (madmcp) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 521.5 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F3 9 Tf .266667 .266667 .266667 rg (Node.js / Express \267 MCP server) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 493.5 cm
+q
+BT 1 0 0 1 14 15.7 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Built and deployed a single MCP server exposing ~50 tools across 5 backends \(GitHub, Cloudflare) Tj T* (D1/KV/R2/Workers, Notion, Mem0, generic fetch\) to any MCP-compatible AI client.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 453 cm
+q
+BT 1 0 0 1 14 28.2 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Designed the auth layer: timing-safe shared-key comparison, IP allowlisting scoped to Claude's published) Tj T* (connector range, and per-route rate limiting, applied in the correct order so a leaked key alone can't reach the) Tj T* (server.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 425 cm
+q
+BT 1 0 0 1 14 15.7 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Handled real deployment edge cases \(proxy-hop-aware client IP trust, raised body limits for large file pushes,) Tj T* (graceful per-connector token failure\) and shipped one-click deploy configs for Render and Vercel.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 416 cm
+Q
+q
+1 0 0 1 60 403 cm
+q
+BT 1 0 0 1 0 3 Tm 13 TL /F2 10 Tf 0 0 0 rg (Agentic Email Triage & Ops Automation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 391 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F3 9 Tf .266667 .266667 .266667 rg (n8n \267 LangChain \267 RAG) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 363 cm
+q
+BT 1 0 0 1 14 15.7 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Designed an n8n workflow where an AI agent classifies inbound support email, grounds answers in a) Tj T* (RAG-searched knowledge base, and drafts replies only for non-urgent cases.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 335 cm
+q
+BT 1 0 0 1 14 15.7 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Built a safety boundary directly into the system prompt: escalation-worthy emails are flagged for a human and) Tj T* (never auto-replied to \227 the boundary lives before generation, not as a filter after.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 307 cm
+q
+BT 1 0 0 1 14 15.7 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Forced structured JSON output so downstream nodes \(Sheets, CRM, LINE\) route deterministically instead of) Tj T* (parsing free text; tested against 6 representative scenarios.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 298 cm
+Q
+q
+1 0 0 1 60 285 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (cf-manager) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 273 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F3 9 Tf .266667 .266667 .266667 rg (Bash \267 Cloudflare API v4 \267 Termux) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 245 cm
+q
+BT 1 0 0 1 14 15.7 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Built a self-contained bash script giving Cloudflare a full menu-driven admin panel \(Workers deploy/rollback,) Tj T* (KV/D1/R2/Hyperdrive\) usable entirely from a phone terminal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 217 cm
+q
+BT 1 0 0 1 14 15.7 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Implemented OAuth2 + PKCE login with multi-account switching, one-tap rollback via local deploy backups, and a) Tj T* (GitHub sync step that pushes a worker's source to a linked repo on deploy.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 208 cm
+Q
+q
+1 0 0 1 60 195 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (domap) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 183 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F3 9 Tf .266667 .266667 .266667 rg (Node.js \267 Playwright \267 Browserless.io) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 155 cm
+q
+BT 1 0 0 1 14 15.7 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Built a headless-Chromium tool that walks a page's live DOM into a structured, selector-annotated tree, logs full) Tj T* (network traffic, and replays recorded actions in a fresh session.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 127 cm
+q
+BT 1 0 0 1 14 15.7 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Worked around Android's lack of native Playwright browser support by connecting to a remote Browserless.io) Tj T* (session instead of a locally-launched binary.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 120 cm
+Q
+q
+1 0 0 1 60 120 cm
+Q
+ 
+endstream
 endobj
 11 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2794
+/Length 4329
 >>
 stream
-GauHL?$Dd\'n,h[3)B8uXb6i`IAAN=*8e]FET0%EmHRl#)8RGOJY=l-75+W,h.Hp(-!&/\Rq0JM!X@eW4o=TP7m9Z;caTNd8b?gnkJ-iR#II7JT6W4r^S\()ftYhF`Gum"!qMYk^R.MNiln%Dh2=(-7D#m`JuONHpDGQ1Dn`#9A.Mkl]<`r3Zc+KdaU8nN1gBL6\9ml3!Y6kq<)Vp$G,GM8I5IZ[SPQpQkXIrjHdCLs.9bGPme$,WGNpO8&RFr8"GQ2D*i!,LpVLUXS;0YN?d5KA:1Q?mIF;>K`pYSik'159Lk;J4Uif6R;%tK<HUI7Sq#Vt3[Zp3,/[gi?-a`k<lTanRIfmWE(I^,5R*idCHAadaKu*M]d;fQ_r>DAk,L40iMZBUgn?hAn+bYYM#Srpq+3%sB4e?W,MY[W$^X]empdC.G@mZr',/0CD6I4bG/6"2YP"$u=\(>4cf2\gSrB_=PPDcQE)HnXkjOJE%]#Eqbd<Uk600$nZntMfX%uC.+>Dg)_@Kl&Oq+&(YmMjP3DmFQ(GL-/O4>H2Acg/U6lFb[tbmQP!P2E*Xinf(Ec+8"F01;*#o]frr<VAH"GoD!+J?MZ.PLIcgr@8u'kRj!uWludYciWKfQ;-iIIWKRMpWoPg_GAA:/\:FKDMr59Jp&]4cT&(0<5'f>BKl0B;`ojOY3PqH_`^h)@B&bHo'*\G8QFOaR8D=QG*aZ3[!@cNC,/@@o@>b0NLL]8<eroY>[3J#&fVIn$mt=4[hYmb0j_4]2C:!oN6f\[!R8Xii'q9^2#5'\rK,(tqF5?W109`\&*"qQ'MTo(qTt[cG.GU##imINbh/krj:NG=W\RSc&Xu+Mg/U7+n?<EYDMXKle-(Q)rR?Z\q::SdbYXX:>+LOQN[YW&OnMi4d/-[mYcI00LfAQN>i/`)mu#oQI!DBHqh`r3T^l6cn"5P15R%id>6:Uq+s6?f=ph%k<(>iMPcBll$R7)ib,EOa_10D^d@H5!.dS?BV&P]@!a,W2Nt'o[eYlRbM"^!%pAGY68>S4fDS%rTgs<T2qE@@?S;\pLgj#u*<qL$N/ZS2LL+,.P\nDOeV4't,>/NXDg9&1HES/55mjSkN:TB7KXcC0WLGr$OdEM&nr-oF@mG6Mu=-r5s6aMJf0DZjBkV'X6[l,Zg36ESTf`\Hi8#8c!\/re)]'(M)dAVFor?8:tg;"ZsaSTB/S?>',B[9tZ#)bMP%0V8aH-=6Z+9FcZ.C*69c,;o,_BCX[mk5/fjg2i\aACo38_/UL6`1&A.8fT,U*]W?<gKccNi%mC<Nn#gKtJV`31WEoUDJ4IZJCK(Z;>D$(9$!%4J)H5^]/;&(S(L-Fb1MMdi67`18Z!n:</$&OueXQPtddBe/F%>p)LsQD6cVoYm*K/j!%"P%93F"hm]C'$K,tUG^tcrLNUi*pJX-(2ZrH2alHdraX3d(_jPutG[t9JIDVsj(8=OaYD2=cK=`#(`i?&3\uM[R84-CQ'1-f+M,nKbKhgW>>m%9`eV+*aQ.@MB$<!s.*!I'Tgg^?)-48<q8E?r`CJgVTB,h'Z!=re?9'6KLajcgVrfX<qpV"q'M<#%4ccXoqR/6p+ABTfHafKT$,ZAj;8fWI#I;#Wp\;fY+TJn@R46R+LJ]:#k]S5_gQ2tb$cD$B>12VpO(fS^k`9?s=KB5H\:^[()[0Dh?I8#sY]X5IuK'D=m/m)H11uGn?mSH>S'd!C1K^]e1QqsJ`Hqt(-62Z`Hn\:cFiE@.*Z$3%Pc?V)5$b`YO?1^j.+Js*8qasQ>.&#EVX_@FQe",?$]GLtV7P=V<[1?3PiV"$p#P05:lG:GjF2F;,bp>=FNG=jpD-b%`O^the>'uUKL"W`O5e_i6KoZm.L'%!iIpYJs/AjDSGisae83pH3\_IX=#/A6LW`1ii[0qQ/@>Ifi\F`fdZ1/CkA$[NjM9pTAEY^&k&!*TXrp3?(bKcVA-#$gc==1=RC9kMT&AS<eoUP:a$c8kNb1[JD_!k=oW992nThQM+<c+rfk,J2*MYmK'DC"'`?#((U=]Gep@kO($L5Rp+L:&c.rDPTDrB^BV5rQN[K3(b1e[r;/#`YNq)j^@(-6@B-.$7)1eaZolAHQYY]Xo'1lg$K2O=]!U&rGDj`4.nJFpF2j@4<=/.A;TdA)!Ph.>_@%?grnLCleg]V`D'r*XE_gL_!Ta3,Z)g2+Y_p'n03p(oJ#Y!X1Sp^Og%dI=0s/@5937T.H,\'g9drjY[Te57WA\Kg4)sU?*1?G;S/&EF\&\9W[isTl'eE<ok_Me3[@RKYH29&rd&aaX*Sh-rNXn4*?ReCO,)H'a8s(:]"-/6eFbN_j>_W;YprcYVgUYaXp(WQ88dHmliNc.?9g*YXJc4r9*jjl`r,gHOo'-(>U_RYj]4&rUPgQ[07DZ*7iJRbXEL=B2FZ!(2)3qYqKcY9a>Lu+bqjPEURYDbAM+Ue6_do3QDSgXC@F-XEdb%FERgqm4@o!Okj'DZ&UK@m]C-%(&sl`-5Zju>GK_mXMk<c@V@iXH90T8rqGfI/\,(&oUX::=l[f"BsiT6/[.n>E]"QZI!P"t_B2j:)>'4^Rp9R`J)6K7qrO,h-]37WAcBpjCWoM2T"hsYX]$4IJMC65Ff,mMTnNeb.G=dG"5%=(!V_hYAAbdjI?CCPlkme!;XE(E`4U:bpfApAK9EVk&:[^dKSaJ39EGJaa.?Gi6)<(6d7'=6Pp_M((Dp=XjkA)o+#],d]f"R2&)/`6M\^rFAZ=#q5:=]!ocD#G7bQ=3Z(GE"=0[m_%?sLMW]3':%uQIsB)~>endstream
-endobj
-12 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1819
->>
-stream
-Gau`S>Ar4d'RnB337:DL\cUph7Ji=r,YLcD!jpd=]M.Ymgt3Z/*f&0N^Yd[u-I%6F6!>F?O6:Q/q9F1:A!)V?<WC*"dE.@DB,4W.c/rQIL.eibS^*80*Z77W3g!-+BN]oTiJE]Ye)^GJLhM39ODPmQ2ud2l)1G,-=$It.l&ePl)n;J.L(i42)sNo\]sfl7VU200S7ZgubcpihMK\3QL1@\C]VqE;AodIZHEJ,L]qQB&_Xr`:p]*q&qT.#3eCGS!kD-bR"0BR&6Z#BX3YohkhIEr1g-3gR!0J9?+jG&mYUgH-\LHdsp&gsa<]P*T=)>^pIRCFp2#Bq(\,sV'K07bi>mbE"#^gk#1QSbe.+om#n?g.5R8'!Hhr-^gCYuZBT3fn:o&F8"8qY<Ffjo?uEAkJBQp))\P^(Y2>Ob/_03Rr8#^?NM(W#olKE*3T1b5p`Mg@<Y2''T@nZ!1LnmKp%]^<P$4pIgg>g4`\0ljoSbd6c+kLAYE-H!W(,WpuRU%gRSP!Y"-A::jgnM6Ep9(g?fG)rVOAF;:#-rp_`/1m`Kk"ql850jDtN$n7Qm?qkPA$P%450:NU30,@QUu`c"ZufNYEE!T-C+OiU2!S=M5u>bkd"BA,#h=i9<UtfFOjH5hL,ZLU1hTt%l$__m1e[^YmT*.Snuic]eM(]MFt.UtVHT4K(8R7d$DGmn)DdY9JeEMWWZpT4W0hCS`=1cXCZ^uYP,6.Wmk$@:Q6agGnc])je4UKdQ5#6=0!ULUKN];kJ92eV4<UU9R=>1-nXe_kmr&Ftk53YIm%#&u@Zj+=8bpOd6IOQ+l9cI5'mU%[d900_#*1.E[h>Oc5(fbjK#cTWpa.c=34gL3Ohn#(0S(f'VrtsU0##O@R+")M_4EZR>Z1f:_J!`GI0R]S1PH92T!L3g.j6j4\CdoTf!)*S=4/,4d\PjV>Y+GMS7au^A/ja$<B2J)o)l7"M@tt$_m2nC]6buIa[4S5G9gJ!p_Gm%gdaacE"8>mi_3=n4CaQKf0\>7=oL`So8lu_P0eZAL5u-qA2F(P(5Z.[Xa_WIQSb$Q#>'j1nT6H)U=uUnbik#De"UL&P-]g7\k>JUPcin[WSeq&JIQ1J*7Si3,cbu3hbaEe9a`N98Y2^jr9e,_XH<3XRFolTaT>VGHS<X<$"+V[F3Pf<J[RV?.ERG[jNO<g9\!`.Z%1dV1L)64/A6'"m;nnAdlgB6dj<GKCo\]ofWBRHh'oB>W6Gpkf5LA]iWd-U^W<]%3Ysjb,;cUiK2E-8AT>s!3#Z+93j#MBQO&N6F@?-ISf,rGGh<R@SZ67,)^!V[=Dh/3+MFkBO&Hq4'p?ZJU%"pM@_>Onk,a0<gUa<sRP'G$QqV@.LCob#Z+f@+St_C"A?j3s;-^>qn"Z5M48%3LS(%,Ld:cm&l+4S@*OrM9E)goUE-JHf:Gds\2]B#2s6`)B_]$jV$,73V%^^-@D`u^@5@OfM*ea?q#Xe]&neDe>T-V-\GH@pErHlMk9,B#(`YTo*nO>*!dA?*XkZP#1+Pa!hPh\a\4aUNCTbEY_%MJc?_dO&g5K(8SM:6B(!atNYF?6HI1#Z]TJE<-<Q!2n/5g1Fhnl4-GH8sK@?`^T@Cd*7/2bP<3T3'^qGK3'jj`h&l*A;NUcHnF7K9r9XL$5/&qOk#c1hc;N1i=s@8AcMRj6JX0dPN!r=UOLBa6-:j'A'?&]fjbCoI</k;L2U\@Kj4'?sa$09@+[f\R@3_Puk8K<@.G^e.)]:H&AO=m+O/on^d!RqbP!5h"oe_B,[$AaH,aUUF(!Lkn81=;r,f?h'/1B(d:jnWrCDnJ"ri:oD~>endstream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.466667 .466667 .466667 rg
+BT 1 0 0 1 259.536 36 Tm (allocsys \267 resume \267 page 2) Tj T* ET
+Q
+q
+1 0 0 1 60 718 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (OPEN SOURCE CONTRIBUTIONS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 699 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (modelcontextprotocol/typescript-sdk) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 687 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F3 9 Tf .266667 .266667 .266667 rg (PR #2504 \267 open) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 659 cm
+q
+BT 1 0 0 1 14 15.7 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Root-caused and fixed two falsy-zero requestId bugs in the notification debounce guard and cancellation handling;) Tj T* (added regression tests covering both.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 650 cm
+Q
+q
+1 0 0 1 60 637 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (drizzle-team/drizzle-orm) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 625 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F3 9 Tf .266667 .266667 .266667 rg (3 PRs \267 closed, not merged) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 584.5 cm
+q
+BT 1 0 0 1 14 28.2 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Fixed a node-postgres connection-pool leak on a rejected BEGIN, a TypeScript inference bug in) Tj T* (createSchemaFactory, and added schema validation for 6 Gel-only column types across all four schema-integration) Tj T* (packages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 556.5 cm
+q
+BT 1 0 0 1 14 15.7 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (All three PRs were closed unmerged; the connection-pool fix's underlying issue remains open, with an equivalent) Tj T* (fix from another contributor pending review.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 547.5 cm
+Q
+q
+1 0 0 1 60 534.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (cloudflare/workers-sdk) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 522.5 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F3 9 Tf .266667 .266667 .266667 rg (4 PRs \267 1 merged, 2 closed, 1 open) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 507 cm
+q
+BT 1 0 0 1 14 3.2 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Root-caused a Windows-only crash from non-ASCII paths \(Latin-1 header violation\) across 5 call sites \227 merged.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 491.5 cm
+q
+BT 1 0 0 1 14 3.2 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Fixed a false infinite-redirect-loop deploy warning \227 closed, not merged.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 463.5 cm
+q
+BT 1 0 0 1 14 15.7 Tm 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Fixed local Images binding transform parity \(fit/gravity/background\) \227 original PR closed after an accidental fork) Tj T* (deletion mid-review; restored and continued in a follow-up PR, currently open and in review.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 454.5 cm
+Q
+q
+1 0 0 1 60 441.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 10 Tf 13 TL (urllib3/urllib3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 429.5 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F3 9 Tf .266667 .266667 .266667 rg (PR #5121 \267 closed \(superseded\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 401.5 cm
+q
+BT 1 0 0 1 14 15.7 Tm -0.102894 Tw 12.5 TL /F1 9.3 Tf 0 0 0 rg (\177) Tj ( ) Tj ( ) Tj (Replaced a deprecated pyOpenSSL X.509 API call with the cryptography library equivalent, with new tests for both) Tj T* 0 Tw (a present and missing commonName.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 375.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 11 Tf 14 TL (SKILLS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 63 297.5 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Languages) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (JavaScript / TypeScript, Node.js, Python, SQL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 0 39 cm
+q
+BT 1 0 0 1 0 3 Tm 12 TL /F2 9 Tf 0 0 0 rg (Backend & APIs) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Express, REST API design, OAuth2, Rate limiting, IP allowlisting, Webhooks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 0 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (AI / Agent Tooling) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Model Context Protocol \(MCP\), LangChain, RAG / Vector DBs \(Qdrant\), n8n, Prompt design) Tj T* ET
+Q
+Q
+q
+1 0 0 1 0 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 9 Tf 12 TL (Infrastructure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 108 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Git, Cloudflare \(D1, KV, R2, Workers\), Render / Vercel, GitHub Actions CI) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+ 
+endstream
 endobj
 xref
-0 13
+0 12
 0000000000 65535 f 
 0000000061 00000 n 
-0000000122 00000 n 
-0000000229 00000 n 
-0000000341 00000 n 
-0000000456 00000 n 
-0000000651 00000 n 
-0000000756 00000 n 
-0000000951 00000 n 
-0000001020 00000 n 
-0000001302 00000 n 
-0000001368 00000 n 
-0000004254 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000446 00000 n 
+0000000640 00000 n 
+0000000834 00000 n 
+0000000902 00000 n 
+0000001184 00000 n 
+0000001249 00000 n 
+0000006806 00000 n 
 trailer
 <<
 /ID 
-[<d411de2d2d8402c0e72a7ad59274f581><d411de2d2d8402c0e72a7ad59274f581>]
+[<26474fa72a16d6ce5321200c430c55d5><26474fa72a16d6ce5321200c430c55d5>]
 % ReportLab generated PDF document -- digest (opensource)
 
-/Info 9 0 R
-/Root 8 0 R
-/Size 13
+/Info 8 0 R
+/Root 7 0 R
+/Size 12
 >>
 startxref
-6165
+11187
 %%EOF
